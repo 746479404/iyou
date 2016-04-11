@@ -11,7 +11,7 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
-     'defaultRoute' => 'data/index',
+     'defaultRoute' => 'data/aaa',
     'components' => [
         'user' => [
             'identityClass' => 'common\models\User',

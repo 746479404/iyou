@@ -15,6 +15,9 @@ use yii\filters\AccessControl;
 class DataController extends Controller
 {
     //首页
+	public function actionAaa(){
+		return $this->render('aaa');
+	}
 
 	public function actionIndex()
 	{
